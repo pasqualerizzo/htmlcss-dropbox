@@ -23,3 +23,177 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.button {
+    background-color: #0061ff;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    align-items: center;
+}
+
+
+/* header */
+
+.background-header {
+    padding: 15px;
+    display: flex;
+    background-color: #ffff;
+}
+
+.row-header-left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.row-header-right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: end;
+}
+
+
+.col-list-header-left a {
+    color: #383838;
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-list-header-right a {
+    color: #383838;
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-list-header-left, li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* fine header */
+
+
+/* inizio main */
+
+
+
+/* Prima sezione */
+.background-first-main {
+    background-color: #b4d0e7;
+}
+
+.background-first-main .container h1{
+    font-size: 8vh;
+    font-weight: bolder;
+    
+} 
+
+.row-first-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.column-p-description {
+   width: 50%; 
+   height: 100%;
+}
+
+.column-p-description p{
+    margin-bottom: 40px; 
+ }
+
+.column-image img {
+    width: 100%;
+}
+
+.column-p-description a {
+    text-decoration: none;
+}
+
+.column-p-description span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px
+ }
+
+.cta-annulla {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+ 
+.arrow-cta {
+    font-size: 4vh
+}
+
+/* Fine prima sezione */
+
+/* Inizio seconda sezione */
+
+.background-second-main {
+    font-size: 2vh;
+    background-color: #ffff;
+    margin-top: 10vh;
+}
+
+.plans {
+    font-size: 12px;
+    margin-top: 40px;
+    line-height: 10px;
+    margin-bottom: 30px
+}
+
+.row-plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.row-plans .professional-plan {
+    width: 30%;
+    border: solid 1px #d0d0d3;
+}
+
+.row-plans .advanced-plan {
+    width: 30%;
+    border: solid 1px #d0d0d3;
+}
+
+.row-plans .enterprise-plan {
+    width: 30%;
+    border: solid 1px #d0d0d3;
+}
+
+
+
+
+
+/* Debug */
+
+/* .background-footer, .debug{
+    /* width: 100%; */
+    /* background-color: coral; */
+
+    .debug, .container {
+       ;
+        border: 2px solid black;
+    }
+
+    .debug, .column-p-description {
+        border: 2px solid black;
+    } 
+
+    .debug, .small-container {
+         border: 2px solid black;
+         min-height: 50vh;
+     }
+
+
+
+
+    
+
+
