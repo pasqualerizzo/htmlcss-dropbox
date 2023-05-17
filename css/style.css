@@ -32,6 +32,14 @@ body {
     align-items: center;
 }
 
+.negative-button {
+    background-color: #ffff;
+    padding: 5px 15px;
+    border: solid 1px grey;
+    color: grey;
+    align-items: center;
+}
+
 
 /* header */
 
@@ -77,7 +85,6 @@ body {
 
 
 /* inizio main */
-
 
 
 /* Prima sezione */
@@ -130,12 +137,14 @@ body {
 
 /* Fine prima sezione */
 
+
 /* Inizio seconda sezione */
 
 .background-second-main {
     font-size: 2vh;
     background-color: #ffff;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .plans {
@@ -152,20 +161,449 @@ body {
 
 }
 
+/* inizio professional plans */
+
 .row-plans .professional-plan {
     width: 30%;
     border: solid 1px #d0d0d3;
 }
 
+
+.row-plans .professional-plan h6{
+    text-align: center;
+    border: solid 1px #d0d0d3;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.row-plans .professional-plan h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row-plans .professional-plan span{
+    display: block;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.row-plans .professional-plan h5{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.row-plans .professional-plan ul{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.row-plans .professional-plan li{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.row-plans .professional-plan .button{
+    font-size: 12px;
+    margin: 0 40px;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.button a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.buy-now {
+    margin-top: 25px;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.buy-now a {
+    color: #0061ff;
+}
+
+.row-plans .professional-plan h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+/* fine professional plan */
+
+
+/* inizio advanced plan */
 .row-plans .advanced-plan {
     width: 30%;
     border: solid 1px #d0d0d3;
 }
 
+.row-plans .advanced-plan h6{
+    text-align: center;
+    border: solid 1px #d0d0d3;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.row-plans .advanced-plan h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row-plans .advanced-plan span{
+    display: block;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.row-plans .advanced-plan h5{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.row-plans .advanced-plan ul{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.row-plans .advanced-plan li{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.row-plans .advanced-plan .button{
+    font-size: 12px;
+    margin: 0 40px;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.button a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.buy-now {
+    margin-top: 25px;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.buy-now a {
+    color: #0061ff;
+}
+
+.row-plans .advanced-plan h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* fine advanced plan */
+
+
+/* inizio enterprise plan */
+
 .row-plans .enterprise-plan {
     width: 30%;
     border: solid 1px #d0d0d3;
 }
+
+.row-plans .enterprise-plan h6{
+    text-align: center;
+    border: solid 1px #d0d0d3;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.row-plans .enterprise-plan h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row-plans .enterprise-plan span{
+    display: block;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.row-plans .enterprise-plan h5{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.row-plans .enterprise-plan ul{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.row-plans .enterprise-plan li{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.row-plans .enterprise-plan .button{
+    font-size: 12px;
+    margin: 0 40px;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.button a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.buy-now {
+    margin-top: 25px;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.buy-now a {
+    color: #0061ff;
+}
+
+.row-plans .enterprise-plan h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* fine enterprise plan */
+
+.row-plans .enterprise-plan-cta {
+    width: 100%;
+    border: solid 1px #d0d0d3;
+    margin-top: 30px
+}
+
+/* Fine seconda sezione */
+
+
+
+/* inizio terza sezione */
+
+.background-third-main {
+    background-color: #fff;
+    margin-bottom: 10vh;
+}
+
+.column-partner img {
+    width: 100%;
+}
+
+.column-partner {
+    width: 60%;
+}
+
+.column-p-description-2 {
+    width: 40%; 
+    height: 100%;
+    margin-left: 50px;
+ }
+
+ .column-p-description-2 h3{
+    margin-top: 20px;
+ }
+
+ .column-p-description-2 p {
+    margin-bottom: 20px;
+ }
+
+ .column-p-description-2 a {
+    text-decoration: none;
+ }
+
+/* fine terza sezione */
+
+/* inizio quarta sezione */
+
+.background-fourth-main {
+    background-color: #fff;
+}
+
+.myrow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.myrow img{
+   width: 100%;
+}
+
+.myrow p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.col-1-3 {
+    width: 30%;
+    height: 100%;
+}
+
+.col-2-3 {
+    width: 30%;
+    height: 100%;
+}
+
+.col-3-3 {
+    width: 30%;
+    height: 100%;
+}
+
+
+
+/* fine quarta sezione */
+
+/* inizio quinta sezione */
+
+.background-fifth-main {
+    background-color: #fff;
+    margin-top: 10vh;
+}
+
+.background-fifth-main .small-container {
+   
+}
+
+.background-fifth-main .small-container h2 {
+    width: 40%;
+    margin-bottom: 20px
+}
+
+.background-fifth-main .small-container a {
+    font-size: 12px;
+    color: #0061ff
+}
+
+/* fine quinta sezione */
+
+/* inizio sesta sezione */
+
+.partner-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.raw-partner {
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.col-wrap-1-3 {
+    border: 1px solid black;
+    width: 33%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.brand-1 {
+    background-color: #a2d39b;
+    border: solid 10px #d1e9cd;
+}
+
+.brand-2 {
+   background-color: #61082b; 
+}
+
+.brand-3 {
+    background-color: #0093ce;
+}
+
+.brand-4 {
+    background-color: #ff1c1c;
+}
+
+.col-wrap-1-3 > *{
+    width: 50%;
+    height: 269px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-wrap-1-3 img {
+   width: 50%;
+   
+}
+
+.designit {
+    width: 100%;
+    padding: 30px 60px;
+}
+
+.designit img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+.col-wrap-3-3 {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.col-wrap-3-3 > *{
+    width: 50%;
+    height: 269px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-wrap-3-3 img {
+    width: 50%;
+ }
+
+ .brand-5 {
+    background-color: #d5001f;
+}
+
+.brand-6 {
+   background-color: #b4d0e7; 
+}
+
+.brand-7 {
+    background-color: #0d2481;
+}
+
+.brand-8 {
+    background-color: #ffd830;
+}
+
+.col-wrap-2-3 {
+    width: 33%;
+    background-color: #f5f5f5 ;
+}
+
+/* fine sesta sezione */
+
+
+
+
 
 
 
@@ -188,8 +626,12 @@ body {
 
     .debug, .small-container {
          border: 2px solid black;
-         min-height: 50vh;
+         /* min-height: 30vh; */
      }
+
+     /* .debug .myrow {
+        border: 2px solid black;
+     } */
 
 
 
